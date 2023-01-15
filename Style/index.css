@@ -8,7 +8,104 @@
     --cor4: #F2F2F2;
 }
 
+body{
+    margin: 0px;
+}
+
 header{
     background-color: var(--cor1);
-    max-height: 150px;
+    height: 120px;
+        
+}
+header > h1{
+    margin: 0px;
+    padding: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > p{
+    margin: 0px; 
+    padding: 0px 0px 5px 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > div{
+    border-radius: 3px;
+    width: 690px;
+    height: 35px;
+    display: inline-block;
+    background-color: white;
+}
+header > div > p#pesquisa{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.315);
+    margin: 0px 0px 0px -538px;
+    padding: 5px 0px 5px 550px;
+}
+header > div > p#lupa{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.315);
+    margin: 0px;
+    padding: 5px 0px 5px 550px;
+}
+
+
+nav{
+    background-color: var(--cor0);
+    padding: 5px;
+    margin: 2px 0px 2px 0px var(--cor0);
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a:hover{
+    color: var(--cor4);
+    background-color: var(--cor1);
+    padding: 2px 5px;
+    border-radius: 3px;
+    transition-duration: .5s;
+}
+
+
+main{
+    margin: 50px 20px;
+}
+main > div.dir{
+    width: 583px;
+    height: 749px;
+    display: inline-block;
+} 
+main > div.esq{
+    width: 583px;
+    height: 749px;
+    display: inline-block;
+}
+main > article{
+    margin: 3px;
+    box-shadow: 0px 0px 3px black;
+}
+main > div.dir > article#noticia1{
+    background-color: var(--cor3);
+    width: 583px;
+    height: 411px;
+    margin-bottom: 3px;
+}
+main > div.dir > article#noticia2{
+    background-color: var(--cor3);
+    width: 583px;
+    height: 335px;
+}
+main > div.esq > article#noticia3{
+    background-color: var(--cor3);
+    width: 675px;
+    height: 749px;
+}
+
+footer{
+    background-color: var(--cor2);
+    height: 25px;
 }
