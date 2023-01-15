@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+:root{
+    --cor0: #586F8C;
+    --cor1: #495B73;
+    --cor2: #262625;
+    --cor3: #A6A6A6;
+    --cor4: #F2F2F2;
+}
+
+header{
+    background-color: var(--cor1);
+    max-height: 150px;
+}
