@@ -14,22 +14,18 @@ body{
 
 header{
     background-color: var(--cor1);
-    height: 120px;
+    height: 87px;
         
 }
 header > h1{
-    margin: 0px;
-    padding: 30px;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 0px 25px 30px;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
 }
-header > p{
-    margin: 0px; 
-    padding: 0px 0px 5px 5px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
 header > div{
+    padding: 0px 0px 10px 0px var(--cor1);
+    margin: 25px 0px 25px 0px;
     border-radius: 3px;
     width: 690px;
     height: 35px;
@@ -40,15 +36,14 @@ header > div > p#pesquisa{
     display: inline-block;
     color: rgba(0, 0, 0, 0.315);
     margin: 0px 0px 0px -538px;
-    padding: 5px 0px 5px 550px;
+    padding: 0px 0px 0px 550px;
 }
 header > div > p#lupa{
     display: inline-block;
     color: rgba(0, 0, 0, 0.315);
-    margin: 0px;
+    margin: 2px;
     padding: 5px 0px 5px 550px;
 }
-
 
 nav{
     background-color: var(--cor0);
@@ -70,9 +65,14 @@ nav > a:hover{
     transition-duration: .5s;
 }
 
-
 main{
     margin: 50px 20px;
+}
+div.esq > article{
+    margin: 3px;
+}
+div.dir > article{
+    margin: 3px;
 }
 main > div.dir{
     width: 583px;
@@ -84,25 +84,43 @@ main > div.esq{
     height: 749px;
     display: inline-block;
 }
-main > article{
-    margin: 3px;
-    box-shadow: 0px 0px 3px black;
-}
-main > div.dir > article#noticia1{
+main > div.esq > article#noticia1{
     background-color: var(--cor3);
-    width: 583px;
+    width: 100%;
+    height: 408px;
+
+}
+img#meta{
+    display: inline-block;
+}
+main > div > article#noticia1:hover {
+    width: 586px;
     height: 411px;
-    margin-bottom: 3px;
+    margin: 0px 1px 3px 1px;
+    transition-duration: .5s;
 }
-main > div.dir > article#noticia2{
+main > div.esq > article#noticia2{
     background-color: var(--cor3);
-    width: 583px;
-    height: 335px;
+    width: 100%;
+    height: 338px;
 }
-main > div.esq > article#noticia3{
+main > div > article#noticia2:hover {
+    width: 587px;
+    height: 340px;
+    margin: 1px 1px 0px 0px;
+    transition-duration: .5s;
+}
+main > div.dir > article#noticia3{
     background-color: var(--cor3);
     width: 675px;
     height: 749px;
+
+}
+main > div > article#noticia3:hover {
+    width: 677px;
+    height: 754px;
+    margin: 0px 0px 0px 2px;
+    transition-duration: .5s;
 }
 
 footer{
