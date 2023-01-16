@@ -90,9 +90,6 @@ main > div.esq > article#noticia1{
     height: 408px;
 
 }
-img#meta{
-    display: inline-block;
-}
 main > div > article#noticia1:hover {
     width: 586px;
     height: 411px;
